@@ -16,24 +16,26 @@ Contact info :  Thai ham : E25VBE
 Development History of DADA - Directional Antenna Deployment Assistant
 
 First idea : Feb 2009, when I first acquire beginner ham operator license and E22JNE callsign.  Right after 
-decided to install directional antenna multi-beam 2x2 192E from ClubStationThai antenna maker. While waiing 
-for the installation, I think further of how to effectively use it.  Then create maxtrix table of every district 
-in Thailand by taking the coordinate of every district office to to create :
+decided to install directional antenna multi-beam 2x2 192E from ClubStationThai antenna maker. While waiting 
+for tower and antenna installation, I started to think further of how to effectively use it. Then wrote Visual Foxpro
+code to create maxtrix table of every district in Thailand by taking the coordinate of every district office to to 
+create :
 
     1. Distance matrix
     2. Angle matrix
 
-Then distribute the angle matrix in JPG/PDF through ClubStationThai antenna by HS1BFR Prasit Sottipattanapong
+Then distribute the angle matrix in JPG for A4 and A0 paper format through ClubStationThai antenna manufacturer by 
+HS1BFR Prasit Sottipattanapong.
 
-Later in 2019, right after reading this news of how heavily calculation ham operator has to be done to calculate 
-the angle to rotate the antenna in order to communicate with aboard HTMS Chakrinarubet that I decide to write 
-this application but cannot distribute due to the coordinate data is a copyrighted dataset of commercial 
-organization.  Just early October 2023 that E20FWF rang me to warn about expired license will lead to big fine 
-from all ham gears turned illegal.  So I rush to renew my license to receive the new callsign E25VBE.  Then
-restart ham activity and reconnect all ham gears. Then start to think seriously of how to distribute this 
-piece of code for the use of others.  And since I am RAST lifetime member, I brought this idea to discuss with 
-E20EHQ at RAST and he's very much happy about the idea.  After that, while googling around, I found the Open 
-Government Data from this website :
+Later in 2019, while reading this news of how heavily calculation ham operator has to perform to calculate 
+the angle to rotate the antenna in order to communicate with aboard HTMS Chakrinarubet while operating HS10KING/MM
+that I decide to write this application but cannot distribute due to the coordinate data is a copyrighted dataset of 
+commercial organization.  Just early October 2023 that E20FWF rang me to warn about expired license will lead to big 
+fine after all ham gears turned illegal.  So I rush to renew my license to receive the new callsign E25VBE.  Then
+restart ham activity and reconnect all ham gears. Then start to think seriously of how to distribute this piece of 
+code for the use of others.  And since I am RAST lifetime member, I brought this idea to discuss with E20EHQ at RAST 
+and he's very much happy about the idea.  After that, while googling around, I found the Open Government Data from 
+this website :
 
 https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
 
@@ -55,5 +57,5 @@ such happiness around ^_^
 E25VBE or Pat Jojo Sadavongvivad on facebook.com
 
 Without kind words from HS1BFR and HS1KBG on 144.100 MHz ham band back in 2009 I would not have started all this
-activity.  They show and pass to me the spirits of the ham and also continuously empower me to continue to develop 
-over the years.  All thanks as a result of the usefulness of DADA also a what I learn from both of them.
+activity.  They show and pass to me the spirits of the hams and also continuously empower me to continue to develop 
+over the years.  All thanks as a result of the usefulness of DADA is what I learn from both of them.
