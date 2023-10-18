@@ -1,7 +1,9 @@
 ' DADA1 - Directional Antenna Deployment Assistant
 '
-' BEFORE USE : download the open Government dataset from the URL below, save the Excel file as CSV into
-' same folder as the EXE and run.
+' BEFORE USE : download the open Government dataset from the URL below :
+' https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
+' save the Excel file as CSV under the name OpenGovernmentLatLongTambon.csv
+' place the file into same folder as the EXE and run.
 '
 '
 ' Development History
@@ -19,7 +21,7 @@
 ' that I decide to write this application but cannot distribute due to the coordinate data is a
 ' copyrighted dataset of commercial organization.
 '
-' https://www.facebook.com/walkietalkienepal/photos/special-amateur-radio-station-for-crowning-of-thai-new-king-may-3-5-2019we-are-p/1318968451600606/?paipv=0&eav=AfavNOZKAaIORHIl-bO6TZ_Nln2cn4Sj5GQu4cVMPvqfENSubLXBiYufI63gqHJVnus&_rdr
+' https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
 '
 ' Just early October 2023 that E25VBE (my renewed callsign) found Lat/Long data of every Tambon in
 ' OpenGovernmentData web where everyone can download and use.  So I begin to fix the code to
