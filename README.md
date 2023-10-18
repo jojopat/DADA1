@@ -31,13 +31,18 @@ this application but cannot distribute due to the coordinate data is a copyright
 organization.  Just early October 2023 that E20FWF rang me to warn about expired license will lead to big fine 
 from all ham gears turned illegal.  So I rush to renew my license to receive the new callsign E25VBE.  Then
 restart ham activity and reconnect all ham gears. Then start to think seriously of how to distribute this 
-piece of code for the use of others.  Bring this idea to discuss with E20EHQ at RAST about this.  Then while 
-googling around, I found the Open Government Data from this website :
+piece of code for the use of others.  And since I am RAST lifetime member, I brought this idea to discuss with 
+E20EHQ at RAST and he's very much happy about the idea.  After that, while googling around, I found the Open 
+Government Data from this website :
 
 https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
 
-Which contain Lat/Long data of every Tambon in Thailand as Open Government Data where everyone can download and 
-free to use.  So I begin to fix the code to utilize this open Government dataset.
+It's Lat/Long data of every tambon and ampur in Thailand as Open Government Data where everyone can download and 
+free to use.  So I begin to fix the code to utilize this open Government dataset. Then test it against the angle
+and distant matrix created back in 2009.  Testing the result of new dataset against 2009 matrix has an average of
+only 0.2% deviation from the previous data so it is very acceptable.  Sharpest directional antenna I know is 
+multi-beam 2x2 192E only give 30 degrees half-power beam-width. And 13 elements yagi-uda antenna has 60 degrees 
+half-power beam-width so 0.2% deviation in the angle is very much acceptable with this dataset.
 
 The main part of the app to calculate distance and angle between two stations has been done.  Next step of the 
 development is to study to prepare some hardware to interface to antenna rotator like KenPro or other brands to 
