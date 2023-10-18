@@ -30,7 +30,7 @@ HS1BFR Prasit Sottipattanapong.
 Later in 2019, while reading this news of how heavily calculation ham operator has to perform to calculate 
 the angle to rotate the antenna in order to communicate with aboard HTMS Chakrinarubet while operating HS10KING/MM
 that I decide to write this application but cannot distribute due to the coordinate data is a copyrighted dataset of 
-commercial organization.  Just early October 2023 that E20FWF rang me to warn about expired license will lead to big 
+commercial organization.  Just early July 2023 that E20FWF warned me about expired license will lead to big 
 fine after all ham gears turned illegal.  So I rush to renew my license to receive the new callsign E25VBE.  Then
 restart ham activity and reconnect all ham gears. Then start to think seriously of how to distribute this piece of 
 code for the use of others.  And since I am RAST lifetime member, I brought this idea to discuss with E20EHQ at RAST 
