@@ -8,6 +8,9 @@ https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
 - Open the Excel file and save it as Comma Separated Value (.CSV) file under the name OpenGovernmentLatLongTambon.csv
 - Place this CSV in the same folder as DADA exe
 - Run DADA exe, the app will read CSV into memory and ready to use
+- Type in your home QTH into the textbox "จตุจั" and press enter. Chatuchak coordinate will appear
+- Press F8 to set Chatuchak as your home QTH
+- Type in any tampon or ampur in part or whole eg. "นครป" then Enter button to get Nakornpathom with angle and air displacement between Chatuchak and Nakornpathom.
 
 Contact info :  Thai ham : E25VBE 
                 facebook : Pat Jojo Sadavongvivad
