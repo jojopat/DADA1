@@ -49,6 +49,6 @@ such happiness around ^_^
 
 E25VBE or Pat Jojo Sadavongvivad on facebook.com
 
-Without kind words from HS1BFR and HS1KBG on 144.100 MHz ham band back in 2009 I would have start all this.
-They show and pass to me the spirits of the ham and also continuously empower me to continue to develop over the 
-years.  All thanks as a result of the usefulness of DADA also a what I learn from both of them.
+Without kind words from HS1BFR and HS1KBG on 144.100 MHz ham band back in 2009 I would not have started all this
+activity.  They show and pass to me the spirits of the ham and also continuously empower me to continue to develop 
+over the years.  All thanks as a result of the usefulness of DADA also a what I learn from both of them.
