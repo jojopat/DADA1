@@ -21,7 +21,7 @@ Development History of DADA - Directional Antenna Deployment Assistant
 First idea : Feb 2009, when I first acquire beginner ham operator license and E22JNE callsign.  Right after 
 decided to install directional antenna multi-beam 2x2 192E from ClubStationThai antenna maker. While waiting 
 for tower and antenna installation, I started to think further of how to effectively use it. Then wrote Visual Foxpro
-code to create maxtrix table of every district in Thailand by taking the coordinate of every district office to to 
+code to create maxtrix table of every district in Thailand by taking the coordinate of every province in Thailand to to 
 create :
 
     1. Distance matrix
