@@ -1,4 +1,4 @@
-# DADA1
+# DADA1.1
 Directional Antenna Deployment Assitant 1 - calculate angle and distant between two ham station
 
 BEFORE USE : download open Government data from this link : 
@@ -15,6 +15,8 @@ https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
 Contact info :  Thai ham : E25VBE 
                 facebook : Pat Jojo Sadavongvivad
 
+Update history :
+2023-10-21 DADA 1.1 add Maidenhead grid locator as per E20EHQ suggestion
 
 Development History of DADA - Directional Antenna Deployment Assistant
 
