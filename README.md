@@ -64,3 +64,22 @@ E25VBE or Pat Jojo Sadavongvivad on facebook.com
 Without kind words from HS1BFR and HS1KBG on 144.100 MHz ham band back in 2009 I would not have started all this
 activity.  They show and pass to me the spirits of the hams and also continuously empower me to continue to develop 
 over the years.  All thanks as a result of the usefulness of DADA is what I learn from both of them.
+
+DADA11 Update 2023/10/26 add Maidenhead grid locator and the source code was lost due to older copy of folder synced to Google Drive
+DADA11 Update 2024/5/5 Add Maidenhead grid locator and nearest district locator to grid center
+DADA11 Update 2024/5/6 List province, districts and subdistricts in grid
+
+To-do next:
+
+DADA2 : Directional Antenna Deployment Automation
+- make bluetooth board with 3 relays 2-channels 10-bit ADC to read rotor position
+- add code to automate rotator control to target angle
+
+DADA3 : Directional Antenna Detection Assistant
+- communicate with bluetooth CAT or CIV port
+- read Received Signal Strength Index from transceiver through CAT or CIV commands
+- during first few QSOs slowly adjust the antenna angle to find position with highest S-meter
+
+DADA31
+- take QSO audio signal to analyze using ML to interpret QRK1 to 5
+- adjust antenna angle so to have highest QRK or least Signal-to-Noise Ratio.
