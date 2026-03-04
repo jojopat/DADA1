@@ -1,85 +1,60 @@
-# DADA1.1
-Directional Antenna Deployment Assitant 1 - calculate angle and distant between two ham station
+# Directional antenna deployment assistant (DADA)
 
-BEFORE USE : download open Government data from this link : 
+### "A 45-year journey from a 10-year-old's dream to a global amateur radio tool."
 
-https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
+DADA is an **open-source project** dedicated to helping ham radio operators calculate precise antenna bearings and distances. It has evolved from a 1980s dream into a comprehensive tool that bridges the gap between digital data and physical antenna control.
 
-- Open the Excel file and save it as Comma Separated Value (.CSV) file under the name OpenGovernmentLatLongTambon.csv
-- Place this CSV in the same folder as DADA exe
-- Run DADA exe, the app will read CSV into memory and ready to use
-- Type in your home QTH into the textbox "จตุจั" and press enter. Chatuchak coordinate will appear
-- Press F8 to set Chatuchak as your home QTH
-- Type in any tambon or ampur in part or whole eg. "นครป" then Enter button to get Nakornpathom with angle and air displacement between Chatuchak and Nakornpathom.
+---
 
-Contact info :  Thai ham : E25VBE 
-                facebook : Pat Jojo Sadavongvivad
+## Project versions
 
-Update history :
-2023-10-21 DADA 1.1 add Maidenhead grid locator as per E20EHQ suggestion
+Currently, the DADA project is divided into two main branches:
 
-Development History of DADA - Directional Antenna Deployment Assistant
+### 1. Modern web version (v3.3)
+A browser-based tool using HTML/JS and OpenStreetMap for global urban RF analysis.
+* **Live Demo:** [http://dada1.decem.co.th/33.html](http://dada1.decem.co.th/33.html)
 
-First idea : Feb 2009, when I first acquire beginner ham operator license and E22JNE callsign.  Right after 
-decided to install directional antenna multi-beam 2x2 192E from ClubStationThai antenna maker. While waiting 
-for tower and antenna installation, I started to think further of how to effectively use it. Then wrote Visual Foxpro
-code to create maxtrix table of every district in Thailand by taking the coordinate of every province in Thailand to to 
-create :
+### 2. Legacy VB.NET version (v1.1 - v1.2)
+The foundational Windows-based software that utilizes Thailand's Open Government Data.
+* **Source Code:** Located in the `/v1.2_vb` directory.
 
-    1. Distance matrix
-    2. Angle matrix
+---
 
-Then distribute the angle matrix in JPG for A4 and A0 paper format through ClubStationThai antenna manufacturer by 
-HS1BFR Prasit Sottipattanapong.
+## Getting started with DADA v1.1
 
-Later in 2019, while reading this news of how heavily calculation ham operator has to perform to calculate 
-the angle to rotate the antenna in order to communicate with aboard HTMS Chakrinarubet while operating HS10KING/MM
-that I decide to write this application but cannot distribute due to the coordinate data is a copyrighted dataset of 
-commercial organization.  Just early July 2023 that E20FWF warned me about expired license will lead to big 
-fine after all ham gears turned illegal.  So I rush to renew my license to receive the new callsign E25VBE.  Then
-restart ham activity and reconnect all ham gears. Then start to think seriously of how to distribute this piece of 
-code for the use of others.  And since I am RAST lifetime member, I brought this idea to discuss with E20EHQ at RAST 
-and he's very much happy about the idea.  After that, while googling around, I found the Open Government Data from 
-this website :
+To use the legacy Windows version, follow these steps:
 
-https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910
+1.  **Download data:** Get the official dataset from the [Government Data Portal](https://data.go.th/th/dataset/item_c6d42e1b-3219-47e1-b6b7-dfe914f27910).
+2.  **Prepare file:** Save the Excel file as a **CSV** named `OpenGovernmentLatLongTambon.csv`.
+3.  **Deploy:** Place the CSV in the same folder as the DADA executable.
+4.  **Calculate:** * Enter your Home QTH (e.g., **"จตุจั"** for Chatuchak) and press **Enter**.
+    * Press **F8** to set it as your home.
+    * Search for any destination (e.g., **"นครป"** for Nakornpathom) to get the bearing and distance.
 
-It's Lat/Long data of every tambon and ampur in Thailand as Open Government Data where everyone can download and 
-free to use.  So I begin to fix the code to utilize this open Government dataset. Then test it against the angle
-and distant matrix created back in 2009.  Testing the result of new dataset against 2009 matrix has an average of
-only 0.2% deviation from the previous data so it is very acceptable.  Sharpest directional antenna I know is 
-multi-beam 2x2 192E only give 30 degrees half-power beam-width. And 13 elements yagi-uda antenna has 60 degrees 
-half-power beam-width so 0.2% deviation in the angle is very much acceptable with this dataset.
+---
 
-The main part of the app to calculate distance and angle between two stations has been done.  Next step of the 
-development is to study to prepare some hardware to interface to antenna rotator like KenPro or other brands to 
-integrate DADA with CAT-protocol supported tranceivers in order to do final adjustment of the direction to find 
-peak signal strength.  Or to add some other features in the future.
+## History and motivation
 
-Feel free to further develop this code for the advancement of the hams.  Kindly keep me inform so to spread 
-such happiness around ^_^
+The story of DADA began in **February 2009**, when I was first licensed as **E22JNE**. Faced with the challenge of effectively using a multi-beam directional antenna, I developed a matrix for every district in Thailand using Visual FoxPro.
 
-E25VBE or Pat Jojo Sadavongvivad on facebook.com
+The project took a significant leap in 2023 when I discovered the **Open Government Data**. By integrating this free dataset, I achieved a calculation accuracy with only **0.2% deviation** compared to my original 2009 matrices. This is well within the acceptable range for antennas like the 13-element Yagi-Uda, which has a **60° half-power beam-width**.
 
-Without kind words from HS1BFR and HS1KBG on 144.100 MHz ham band back in 2009 I would not have started all this
-activity.  They show and pass to me the spirits of the hams and also continuously empower me to continue to develop 
-over the years.  All thanks as a result of the usefulness of DADA is what I learn from both of them.
+> **The spirit of ham radio:** This project is a tribute to the mentors (**HS1BFR** and **HS1KBG**) who passed on the spirit of radio to me on the 144.100 MHz band back in 2009.
 
-DADA11 Update 2023/10/26 add Maidenhead grid locator and the source code was lost due to older copy of folder synced to Google Drive
-DADA11 Update 2024/5/5 Add Maidenhead grid locator and nearest district locator to grid center
-DADA11 Update 2024/5/6 List province, districts and subdistricts in grid
+---
 
-To-do next:
+## Project roadmap
 
-DADA2 : Directional Antenna Deployment Automation
-- make bluetooth board with 3 relays 2-channels 10-bit ADC to read rotor position
-- add code to automate rotator control to target angle
+We are currently moving towards **Directional antenna deployment automation**:
 
-DADA3 : Directional Antenna Detection Assistant
-- communicate with bluetooth CAT or CIV port
-- read Received Signal Strength Index from transceiver through CAT or CIV commands
-- during first few QSOs slowly adjust the antenna angle to find position with highest S-meter
+* **DADA2:** Hardware interfacing using Bluetooth and relays to automate rotator controls for KenPro and other brands.
+* **DADA3:** Real-time Signal-to-Noise Ratio (SNR) and RSSI analysis via CAT/CIV protocols to find the peak signal position.
+* **DADA31:** Implementing **Machine Learning** to interpret QRK levels (1-5) from QSO audio signals for automatic antenna adjustment.
 
-DADA31
-- take QSO audio signal to analyze using ML to interpret QRK1 to 5
-- adjust antenna angle so to have highest QRK or least Signal-to-Noise Ratio.
+---
+
+## Contact and license
+
+* **Author:** Pat "Jojo" Sadavongvivad (E25VBE)
+* **Facebook:** [Pat Jojo Sadavongvivad](https://www.facebook.com/jojopat)
+* **License:** **Public Domain** (The Unlicense). Feel free to develop, fork, and share for the advancement of the ham community.
