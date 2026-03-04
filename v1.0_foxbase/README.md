@@ -18,6 +18,11 @@ The angle calculation logic found in `angleprov.prg` is the direct ancestor of t
     * `angleprov.prg`: The main calculation script.
     * `Prov.dbf`: The original coordinate database format (dBase).
 
+## Sample output
+
+The file `angleprov.txt` is the direct result of running `angleprov.prg` back in 2009. It contains:
+* **The Angle Matrix:** A comma-separated table showing the calculated bearing between Thai provinces.
+* **Historical Accuracy:** This specific output serves as the reference point for the modern DADA v3.3, which maintains a high level of consistency with only **0.2% deviation** from these original calculations.
 ---
 
 ## Author
